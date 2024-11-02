@@ -8,11 +8,8 @@
 # testing
 /coverage
 
-# Next.js
-/.next/
-
-# production (if applicable)
-# /build
+# production
+/build
 
 # misc
 .DS_Store
@@ -20,11 +17,10 @@
 .env.development.local
 .env.test.local
 .env.production.local
-.env
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Ignore the backend directory if it shouldn't be tracked
+
 backend/

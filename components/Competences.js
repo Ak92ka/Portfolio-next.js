@@ -14,7 +14,7 @@ export default function Competences() {
             </div>
             <h3 className="competence-h3">Back-end</h3>
             <ProgressBar percentage={85} className="bar-dark-green" icon={faNode} skill="Node.js" val="85%" />
-            <ProgressBar percentage={90} className="bar-green" icon="https://raw.githubusercontent.com/Ak92ka/Portfolio-next.js/689b657e91db423640f7c14485a572fb808dee96/public/Assets/mongodb.svg" skill="MongoDB" val="90%" />
+            <ProgressBar percentage={90} className="bar-green" icon="/Assets/mongodb.svg" skill="MongoDB" val="90%" />
         </section>
     );
 }
