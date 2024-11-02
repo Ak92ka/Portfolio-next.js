@@ -1,5 +1,4 @@
 
-
 export default function Apropos() {
     return (
         <section className="apropos section2" id="apropos">
