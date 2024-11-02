@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://ak92ka.github.io/Project/",
+  "homepage": "https://ak92ka.github.io/Portfolio-next.js",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -33,7 +33,8 @@
     "build": "next build",
     "start": "next start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out",
+    "export": "next export",
+    "deploy": "next build && next export && gh-pages -d out",
     "test": "jest"
   },
   "eslintConfig": {
