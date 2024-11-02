@@ -1,7 +1,7 @@
 {
   "name": "portfolio-next.js",
   "version": "0.1.0",
-  "homepage": "https://ak92ka.github.io/Portfolio-next.js",
+  "homepage": "https://ak92ka.github.io/Portfolio-next.js/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
