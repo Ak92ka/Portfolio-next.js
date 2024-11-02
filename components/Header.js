@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <div className="header">
             <Link href="/">
-                <img src="/Assets/logo.png" alt="portfolio logo" className="logo" width="1500" height="" />
+                <img src="/assets/logo.png" alt="portfolio logo" className="logo" width="1500" height="" />
             </Link>
             <ul className="header-ul">
                 <li><a href="#apropos">À propos</a></li>

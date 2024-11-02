@@ -2,7 +2,7 @@
 export default function Banner() {
     return(
         <div className="banner">
-            <img src="/Assets/bonjour.webp" 
+            <img src="/assets/bonjour.webp" 
                         className="banner-gif"
                         alt="Joli soleil avec des lunettes disant bonjour"
                         width="480"
