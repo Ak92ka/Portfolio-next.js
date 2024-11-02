@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Hamburger from "./Hamburger";
-import '../styles/Header.scss'
 
 export default function Header() {
     return (
