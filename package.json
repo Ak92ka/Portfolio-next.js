@@ -1,7 +1,7 @@
 {
   "name": "portfolio-next.js",
   "version": "0.1.0",
-"homepage": "https://ak92ka.github.io/Portfolio-next.js",
+  "homepage": "https://ak92ka.github.io/Portfolio-next.js",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -28,18 +28,11 @@
     "sass-loader": "^16.0.3",
     "web-vitals": "^2.1.4"
   },
-"scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d out"
-},
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
   },
   "browserslist": {
     "production": [
@@ -54,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^9.14.0",
     "gh-pages": "^6.2.0"
   }
 }
