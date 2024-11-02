@@ -5,7 +5,7 @@ module.exports = {
   output: "export",
   assetPrefix: isProd ? '/Portfolio-next.js/' : '',
   images: {
-    unoptimized: true, // Disable Next.js image optimization for GitHub Pages
+    unoptimized: true, 
   },
   basePath: isProd ? '/Portfolio-next.js' : '',
 };
