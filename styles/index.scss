@@ -1,0 +1,117 @@
+@use './style.scss';
+
+body {
+  background-color: #FFF5F0;
+  color: #1A3E7A;
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'League Spartan', sans-serif;
+}
+
+a {
+  color: #FF6B35;
+}
+
+p {
+  color: black;
+}
+
+.section2 {
+  background-color: #F9F9F9;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Medium devices (tablets, less/equal than 1030px) */
+@media (max-width: 1030px) {
+  .projet-caption {
+    left: 41%;
+}
+  .competence-h3 {
+  width: 17%;
+}
+  .progress-bar {
+  width: 55%;
+}
+.projets {
+  grid-template-columns: repeat(2, 365px);
+  justify-content: center;
+  margin: 0px 67px;
+}
+}
+
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .banner {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.banner-gif {
+  padding-bottom: 30px;
+}
+.banner-text h1 {
+  font-size: 40px;
+}
+.banner-text h2 {
+  font-size: 22px;
+}
+.banner-text p {
+  font-size: 14px;
+}
+.banner-text {
+text-align: center;
+}
+.banner-gif {
+  width: 100%;
+}
+.competence-h3 {
+  width: 33%;
+}
+.progress-bar {
+  width: 90%;
+}
+.projets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modal-content {
+  width: 84%;
+}
+.header-ul {
+  display: none;
+}
+.bm-menu {
+  display: block;
+}
+.bm-menu-wrap {
+  display: block;
+}
+.bm-overlay {
+  display: block;
+}
+.bm-burger-button {
+  display: block;
+}
+.hamburger-icon {
+  display: block;
+}
+.hamburger-container {
+  display: block;
+}
+.projet-caption {
+  left: 50%;
+}
+}

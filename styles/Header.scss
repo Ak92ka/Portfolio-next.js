@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(249, 249, 249, 1);
+}
+
+.header-ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.header-ul li {
+    margin-right: 20px;
+}
+
+.header-ul li:last-child {
+    margin-right: 0; 
+}
+
+li a {
+    text-decoration: none; 
+}
+
+li a:hover {
+    color: inherit;
+}
+
+.logo {
+    width: 81px;
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+.hamburger-container {
+    display: none;
+}
