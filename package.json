@@ -24,7 +24,6 @@
     "react-dom": "^18.3.1",
     "react-modal": "^3.16.1",
     "react-router-dom": "^6.27.0",
-    "sass": "^1.80.6",
     "sass-loader": "^16.0.3",
     "web-vitals": "^2.1.4"
   },
@@ -32,7 +31,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "deploy": "npm run build && gh-pages -d out"
   },
   "browserslist": {
     "production": [
@@ -48,6 +47,7 @@
   },
   "devDependencies": {
     "eslint": "^9.14.0",
-    "gh-pages": "^6.2.0"
+    "gh-pages": "^6.2.0",
+    "sass": "^1.80.6"
   }
 }
