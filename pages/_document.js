@@ -6,6 +6,7 @@ class MyDocument extends Document {
     return (
       <Html lang="fr">
         <Head>
+          <link rel="apple-touch-icon" href="/logo192.png" />
         </Head>
         <body>
           <noscript>You need to enable JavaScript to run this app.</noscript>

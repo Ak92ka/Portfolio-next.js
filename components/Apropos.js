@@ -3,6 +3,7 @@ export default function Apropos() {
     return (
         <section className="apropos section2" id="apropos">
             <h2>À Propos</h2>
+            <div className="apropos-container">
             <p>Depuis que j'étais petit, l'idée de créer de beaux sites internet m'inspirait.
                 Aujourd'hui, mon but est de concevoir des sites performants,
                 dynamiques et uniques, capables de répondre aux besoins de chaque client
@@ -12,6 +13,11 @@ export default function Apropos() {
                 un langage comme Javascript, en me perfectionnant sur un framework
                 comme React, ou même en apprenant un nouveau langage pour diversifier
                 mon expérience.</p>
+                </div>
+                <div className="decorative-line">
+                ≿━━━━༺❀༻━━━━≾
+                </div>
+                <div className="apropos-container">
             <p>Je travaille actuellement à l’obtention d’un diplôme de niveau bac+2
                 dans le cadre de ma formation en développement web,
                 ce qui enrichit mes compétences et me permet d’étoffer mon portfolio.</p>
@@ -19,12 +25,20 @@ export default function Apropos() {
                 pour m’adonner à d'autres activités qui contribuent aussi
                 à mon développement personnel. Jouer aux jeux vidéo me permet de découvrir
                 de nouveaux univers, de stimuler ma créativité, et d’apprécier le travail
-                des autres développeurs. J'aime également pratiquer le football,
+                des autres développeurs.</p>
+                </div>
+                <div className="decorative-line">
+                ≿━━━━༺❀༻━━━━≾
+                </div>
+                <div className="apropos-container">
+                <p>J'aime également pratiquer le football,
                 un sport qui me permet de rester actif, de renforcer l’esprit d’équipe
-                et de relever des défis sur le terrain. Ces activités m’offrent
+                et de relever des défis sur le terrain.</p>
+                <p> Ces activités m’offrent
                 un équilibre précieux et nourrissent souvent mon inspiration,
                 enrichissant ainsi mon portfolio de projets réalisés avec créativité
                 et engagement.</p>
+                </div>
         </section>
     );
 }
