@@ -30,6 +30,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node post-build-fix.js",
     "start": "next start",
     "deploy": "npm run build && gh-pages -d out"
   },
