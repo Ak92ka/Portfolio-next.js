@@ -11,7 +11,11 @@ export default function Accueil() {
     return (
         <div>
             <Head>
-                <title>Portfolio de Ahmed Khalaf</title> 
+                <title>Portfolio de Ahmed Khalaf</title>
+                <meta
+            name="description"
+            content="Découvrez le portfolio de Ahmed Khalaf, développeur web, incluant ses expériences, projets, et compétences en développement web moderne et créatif." />
+          <link rel="icon" href="https://raw.githubusercontent.com/Ak92ka/Portfolio-next.js/refs/heads/main/public/favicon.ico" />
             </Head>
             <Header/>
             <Banner/>
