@@ -23,8 +23,9 @@
 }
 
 .projet-image {
-    height: 339px;
-    width: 286px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .projet-item:hover .projet-image {
@@ -41,20 +42,21 @@
     /* grid-column-gap: 54px; */
     grid-row-gap: 30px;
     padding-bottom: 35px;
-    margin: 0px 46px;
+    margin: auto;
+    max-width: 1140px;
 }
 
 .projet-item {
     margin: 5px;
     padding: 5px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .projet-caption {
     position: absolute;
-    top: 50%;
-    left: 38%;
-    transform: translate(-50%, -50%);
     color: #F9F9F9;
     text-align: center;
     display: none;

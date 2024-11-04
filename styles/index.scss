@@ -37,15 +37,10 @@ code {
 
 /* Medium devices (tablets, less/equal than 1030px) */
 @media (max-width: 1030px) {
-  .projet-caption {
-    left: 41%;
-}
   .competence-h3 {
   width: 17%;
 }
-  .progress-bar {
-  width: 55%;
-}
+
 .projets {
   grid-template-columns: repeat(2, 365px);
   justify-content: center;
@@ -113,10 +108,18 @@ text-align: center;
 .hamburger-container {
   display: block;
 }
-.projet-caption {
-  left: 50%;
-}
 .apropos p {
   margin: 10px auto;
+}
+.contact-container {
+  width: unset;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.div-frontend {
+    width: 82%;
+}
+.div-backend {
+  width: 82%;
 }
 }

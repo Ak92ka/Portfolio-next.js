@@ -1,5 +1,9 @@
 .section-competence {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .competence-h2 {
@@ -17,5 +21,9 @@
 }
 
 .div-frontend {
+    width: 50%;
+}
+.div-backend {
+    width: 50%;
     margin-bottom: 50px;
 }
