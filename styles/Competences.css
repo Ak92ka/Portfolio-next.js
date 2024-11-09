@@ -1,0 +1,29 @@
+.section-competence {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.competence-h2 {
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+.competence-h3 {
+  text-align: center;
+  font-size: 25px;
+  background-color: #f9ddcf;
+  padding: 8px 0;
+  width: 13%;
+}
+
+.div-frontend {
+  width: 50%;
+}
+
+.div-backend {
+  width: 50%;
+  margin-bottom: 50px;
+}/*# sourceMappingURL=Competences.css.map */

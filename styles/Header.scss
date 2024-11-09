@@ -24,11 +24,13 @@
 
 li a {
     text-decoration: none; 
+    transition-duration: 200ms;
+    &:hover {
+        color: inherit;
+    }
 }
 
-li a:hover {
-    color: inherit;
-}
+
 
 .logo {
     width: 81px;

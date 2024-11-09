@@ -20,6 +20,10 @@
     margin-bottom: 25px;
     border-radius: 20px;
     font-weight: bold;
+    transition: transform 200ms;
+    &:hover {
+        transform: scale(1.15);
+    }
 }
 
 .projet-image {

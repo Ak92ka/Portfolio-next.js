@@ -1,0 +1,91 @@
+.projets-h2 {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 32px;
+}
+
+.projets-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projets-buttons button {
+  margin-right: 23px;
+  padding: 8px 20px;
+  background-color: #FF6B35;
+  color: #F9F9F9;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 25px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.projet-image {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.projet-item:hover .projet-image {
+  filter: brightness(0.3);
+  transition: filter 0.3s ease;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.projets {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-column-gap: 54px; */
+  grid-row-gap: 30px;
+  padding-bottom: 35px;
+  margin: auto;
+  max-width: 1140px;
+}
+
+.projet-item {
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projet-caption {
+  position: absolute;
+  color: #F9F9F9;
+  text-align: center;
+  opacity: 0; /* Start with opacity 0 to make it invisible */
+  cursor: pointer;
+  transition: opacity 200ms ease-in-out; /* Apply transition to the opacity change */
+}
+
+.projet-item:hover .projet-caption {
+  opacity: 1; /* Change opacity to 1 on hover to make it visible */
+}
+
+.modal-projet {
+  position: fixed;
+  inset: 0px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.modal-image {
+  height: 419px;
+  width: 100%;
+}
+
+.modal-projet-title {
+  text-align: center;
+}
+
+.modal-p {
+  background-color: #1A3E7A;
+  color: white;
+  padding: 13px;
+  border-radius: 20px;
+}/*# sourceMappingURL=Projets.css.map */

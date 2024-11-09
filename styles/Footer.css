@@ -1,0 +1,21 @@
+.footer {
+  padding: 20px;
+  background-color: #FF6B35;
+}
+
+.footer-ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.footer-text {
+  text-align: center;
+  color: #F9F9F9;
+}
+
+.footer-icon {
+  font-size: 28px;
+  color: #F9F9F9;
+}/*# sourceMappingURL=Footer.css.map */

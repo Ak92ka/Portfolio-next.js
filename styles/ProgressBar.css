@@ -1,0 +1,56 @@
+.progress-bar {
+  width: 100%;
+  height: 35px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background-color: #cac3c3;
+}
+
+.progress-bar__fill {
+  height: 100%;
+  background-color: #FF6B35;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.bar-blue .progress-bar__fill {
+  background-color: #3564ff;
+}
+
+.bar-yellow .progress-bar__fill {
+  background-color: #a1c326;
+}
+
+.bar-dark-blue .progress-bar__fill {
+  background-color: #301868;
+}
+
+.bar-dark-green .progress-bar__fill {
+  background-color: #0e381c;
+}
+
+.bar-green .progress-bar__fill {
+  background-color: #1f7b3e;
+}
+
+.skill {
+  color: #FFF5F0;
+  margin: 10px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.skill-icon {
+  color: white;
+  height: 27px;
+}
+
+.val {
+  color: #FFF5F0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: 20px;
+  font-weight: bold;
+}/*# sourceMappingURL=ProgressBar.css.map */
