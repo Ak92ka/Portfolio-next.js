@@ -96,7 +96,7 @@ export default function Projets() {
                   onClick={() => window.open(selectedProject.lien, "_blank")}
                   className="modal-button"
                 >
-                  Lien vers le site
+                  Découvrir
                 </button>
               )}
             </div>
