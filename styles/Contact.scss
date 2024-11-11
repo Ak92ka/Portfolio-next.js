@@ -32,9 +32,8 @@
     cursor: pointer; 
     transition: background-color 0.3s; 
     font-weight: bold;
-}
-
-.Contact-submission:hover {
-    background-color: #FF4C22; /* Darker shade on hover */
+    &:hover {
+        background-color: #FF4C22;
+    }
 }
 
