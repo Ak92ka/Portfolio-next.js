@@ -10,7 +10,7 @@ export default function Apropos() {
                 et d’enrichir mon portfolio de projets variés et innovants.</p>
             <p>Je suis un développeur fullstack passionné,
                 toujours en quête de perfectionnement, que ce soit en approfondissant
-                un langage comme Javascript, en me perfectionnant sur un framework
+                un langage comme JavaScript, en me perfectionnant sur un framework
                 comme React, ou même en apprenant un nouveau langage pour diversifier
                 mon expérience.</p>
                 </div>

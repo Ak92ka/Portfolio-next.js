@@ -4,12 +4,12 @@ import { faHtml5, faCss3Alt, faJsSquare, faReact, faNode } from "@fortawesome/fr
 export default function Competences() {
     return (
         <section className="section-competence" id="competences">
-            <h2 className="competence-h2">Mes Competences</h2>
+            <h2 className="competence-h2">Mes Compétences</h2>
             <h3 className="competence-h3">Front-end</h3>
             <div className="div-frontend">
                 <ProgressBar percentage={95} icon={faHtml5} skill="HTML5" />
                 <ProgressBar percentage={95} className="bar-blue" icon={faCss3Alt} skill="CSS" />
-                <ProgressBar percentage={90} className="bar-yellow" icon={faJsSquare} skill="Javascript" />
+                <ProgressBar percentage={90} className="bar-yellow" icon={faJsSquare} skill="JavaScript" />
                 <ProgressBar percentage={90} className="bar-dark-blue" icon={faReact} skill="React" />
             </div>
             <h3 className="competence-h3">Back-end</h3>

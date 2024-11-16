@@ -10,7 +10,7 @@ export default function Header() {
             <ul className="header-ul">
                 <li><a href="#apropos">À propos</a></li>
                 {/*<li><a href="#experiences" >Experiences</a></li>*/}
-                <li><a href="#competences">Competences</a></li>
+                <li><a href="#competences">Compétences</a></li>
                 <li><a href="#projets">Projets</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
